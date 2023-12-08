@@ -12,7 +12,7 @@ plugins {
   //  rejectVersionIf {
     //    isNonStable(candidate.version) && !isNonStable(currentVersion)
    // }
-}
+// }
 
 /**
 fun isNonStable(version: String): Boolean {
