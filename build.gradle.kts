@@ -4,7 +4,7 @@ plugins {
     id("com.android.application") version "8.2.0" apply false
     id("org.jetbrains.kotlin.android") version "1.9.21" apply false
     // dependency-update-checker
-    id("com.github.ben-manes.versions") version "0.50.0"
+  //  id("com.github.ben-manes.versions") version "0.50.0"
 }
 
 // only check for stable versions
