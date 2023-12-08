@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="changelog_1.20.3">
+        <item>更新了新的翻译。</item>
+    </string-array>
+    <string-array name="changelog_0.0.1">
+        <item>初始版本预发布</item>
+    </string-array>
+</resources>

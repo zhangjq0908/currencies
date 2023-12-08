@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">货币</string>
+    <string name="app_name_alt" translatable="false" tools:keep="@string/app_name_alt">货币名称</string>
+
+    <string name="desc_toggle_currencies">切换货币</string>
+    <string name="rates_date_latest">汇率截至 &lt;b>%1$s&lt;/b>，由 &lt;b>%2$s&lt;/b> 提供</string>
+    <string name="rates_date_historical"> &lt;b>%2$s&lt;/b> 提供的 &lt;b>%1$s&lt;/b> 历史汇率</string>
+    <string name="copied_to_clipboard">已复制 &lt;b>%s&lt;/b> 到剪贴板</string>
+
+    <string name="historical_rates_dialog_title">历史汇率</string>
+    <string name="historical_rates_dialog_toggle">使用特定日期的汇率。禁用此选项以始终使用最新汇率。</string>
+
+    <string name="error">错误：%s</string>
+    <string name="error_generic">未知问题。</string>
+    <string name="error_http">服务器响应 HTTP %d。</string>
+    <string name="error_timeout">服务器未及时响应或无法访问。</string>
+    <string name="error_no_data">无法连接到服务器。</string>
+    <string name="error_empty_response">服务器没有此请求的数据。</string>
+    <string name="error_api_error">API出错。请稍后重试。</string>
+    <string name="error_try_another_api">然而，在设置中有其他可选的数据提供商供您选择。尝试一下吧！</string>
+
+    <string name="menu_settings">设置</string>
+    <string name="menu_refresh">刷新汇率</string>
+    <string name="menu_timeline">汇率图表</string>
+    <string name="menu_historical_rates" translatable="false">@string/historical_rates_dialog_title</string>
+    <string name="title_preferences" translatable="false">@string/menu_settings</string>
+
+    <string name="tooltip_filter_starred">仅显示加星标记的货币。</string>
+    <string name="currency_dropdown_api_hint">有些内容缺失？不同的数据提供商提供不同的货币。前往设置尝试其他提供商！\u00A0\uD83E\uDD17</string>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+    <!ENTITY nbsp "&#160;">
+]>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- 主要设置 -->
+    <string name="category_settings">常规设置</string>
+    <string name="fee_key" translatable="false">KEY_FEE</string>
+    <string name="fee_title">外币交易费用</string>
+    <string name="fee_summary">根据您的信用卡协议，您的银行可能会对所有外汇交易收取费用。在此您可以输入该费用。该费用将会额外计算，这样您就知道您<i>真正</i>支付的金额。</string>
+    <string name="previewConversion_key" translatable="false">KEY_PREVIEW_CONVERSION</string>
+    <string name="previewConversion_title">转换预览</string>
+    <string name="previewConversion_summary">在货币选择器中显示当前汇率的转换预览。</string>
+    <string name="extendedKeypad_key" translatable="false">KEY_EXTENDED_KEYPAD</string>
+    <string name="extendedKeypad_title">扩展键盘</string>
+    <string name="extendedKeypad_summary">增加两个额外按钮：<b>00</b>&nbsp;和&nbsp;<b>000</b>。</string>
+    <string name="category_appearance">外观</string>
+    <string name="system_default">系统默认</string>
+    <string name="theme_key" translatable="false">KEY_THEME</string>
+    <string name="theme_title">设计</string>
+    <string name="theme_option_light">明亮</string>
+    <string name="theme_option_dark">暗黑</string>
+    <string name="pure_black_key" translatable="false">KEY_PURE_BLACK_ENABLED</string>
+    <string name="pure_black_enabled_title">OLED 黑</string>
+    <string name="pure_black_enabled_summary">在暗黑模式下使用纯黑色</string>
+    <!-- 语言 -->
+    <string name="language_key" translatable="false">KEY_LANGUAGE</string>
+    <string name="language_title">应用语言</string>  
+<string name="language_en">英语</string>
+<string name="language_zh_CN">中文（简体）</string>
+<!-- API -->
+<string name="category_api">汇率</string>
+<string name="api_key" translatable="false">KEY_API</string>
+<string name="api_title">数据提供商</string>
+<string name="key_apiProvider" translatable="false">KEY_DATA_SOURCE</string>
+<string name="api_about_title">%s相关信息</string>
+<string name="api_about_exchangerateHost"><a href="https://exchangerate.host/"><b>Exchangerate.host</b></a>从多家金融数据提供商和银行获取货币汇率，包括欧洲央行。所有汇率数据均为中间数据。中间汇率由买入价和卖出价的平均中间率计算而得。\n<b>包含大约160种货币。</b></string>
+<string name="api_about_frankfurterApp"><a href="https://www.frankfurter.app/"><b>Frankfurter.app</b></a>跟踪欧洲央行发布的参考汇率（外汇）。\n<b>包含大约30种货币。</b></string>
+<string name="api_about_ferEe"><a href="https://fer.ee/"><b>Fer.ee</b></a>是一个相对较新的服务，（就像Frankfurter.app一样）跟踪欧洲央行发布的参考汇率（外汇）。\n<b>包含大约30种货币。</b></string>
+<string name="api_about_inforEuro"><a href="https://commission.europa.eu/funding-tenders/procedures-guidelines-tenders/information-contractors-and-beneficiaries/exchange-rate-inforeuro_en"><b>InforEuro</b></a>提供欧洲委员会官方每月欧元的会计汇率，以及根据《财务规则》第19条由欧洲委员会的会计官员确定的转换率。\n这些汇率用于计算外部参加欧洲委员会会议、访谈等活动的费用、旅行或生活费用的金额。\n<b>包含大约150种货币。</b></string>
+<string name="api_about_bankOfCanada"><a href="https://www.bankofcanada.ca/rates/exchange/daily-exchange-rates/"><b>加拿大银行</b></a>每日平均汇率。\n<b>包含大约23种货币。</b></string>
+<string name="api_about_norgesBank">挪威中央银行<a href="https://www.norges-bank.no/en/topics/Statistics/exchange_rates/"><b>Norges Bank</b></a>提供的汇率。\n<b>挪威中央银行列出了大约40种汇率。</b></string>
+<string name="api_about_bankRossii">俄罗斯中央银行<a href="https://cbr.ru/eng/currency_base/daily/"><b>Bank Rossii</b></a>提供的汇率。在当前的制裁下，该来源可能提供了对俄罗斯卢布最可靠的汇率数据。\n<b>Bank Rossii列出了大约44种汇率。</b></string>
+<string name="key_refreshPeriod" translatable="false">KEY_DATA_UPDATE</string>
+<string name="api_refreshPeriod_title">刷新周期</string>
+<string name="api_refreshPeriod_exchangerateHost">汇率每个工作日午夜（UTC）左右更新一次。</string>
+<string name="api_refreshPeriod_frankfurterApp">数据每个工作日下午16:00（CET）左右更新。</string>
+<string name="api_refreshPeriod_ferEe">汇率每个工作日更新一次。</string>
+<string name="api_refreshPeriod_inforEuro">指示的汇率是前一个月倒数第二天的市场汇率，由欧洲央行报价或根据可用性由代表团或其他接近该日期的适当来源提供。</string>
+<string name="api_refreshPeriod_bankOfCanada">汇率每个工作日下午16:30（ET）发布一次。</string>
+<string name="api_refreshPeriod_norgesBank">每日汇率的发布时间大约是下午16:00（CET）。</string>
+<string name="api_refreshPeriod_bankRossii">汇率每天更新一次，俄罗斯公共假期除外。<a href="https://cbr.ru/eng/other/holidays/">俄罗斯公共假期</a>除外。</string>
+<!-- 关于 -->
+<string name="category_about">关于本应用</string>
+<string name="disclaimer_title">免责声明</string>
+<string name="disclaimer_summary">尽管该应用经过了精心的编写和测试，<b>不能保证所显示的数据是正确的</b>。汇率由第三方提供，本应用不能保证数据真实和最新。\n另外，即使提供的汇率是正确的，可能与您的银行使用的汇率有所不同。\n最后：错误是难免的。永远不要盲目相信任何人！话虽如此，可以放心，如果我对该应用能够正常工作没有任何疑虑的话，我是不会发布这个应用的。</string>
+<string name="sourcecode_key" translatable="false">KEY_SOURCECODE</string>
+<string name="sourcecode_title">源代码</string>
+<string name="sourcecode_summary">此应用是开源的。前往代码存储库提出问题、了解如何贡献或查看源代码。</string>
+<string name="donate_key" translatable="false">KEY_DONATE</string>
+<string name="donate_title">支持开发者</string>
+<string name="donate_summary">通过 PayPal 捐赠</string>
+<string name="rate_key" translatable="false">KEY_RATE</string>
+<string name="rate_title">评价这个应用</string>
+<string name="rate_summary">如果您愿意，您可以帮助其他人发现 Currencies 应用。点击此处在 Google Play 上对该应用进行评分。</string>
+<string name="category_versioninfo">版本信息</string>
+<string name="changelog_key" translatable="false">KEY_CHANGELOG</string>
+<string name="title_changelog">更新日志</string>
+<string name="version_key" translatable="false">KEY_ABOUT</string>
+<string name="version_summary" translatable="false" tools:ignore="PluralsCandidate">© 2020-%1$s Maximilian Salomon</string>
+</resources>
+
