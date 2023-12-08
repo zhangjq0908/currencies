@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name" translatable="false">货币</string>
+    <string name="app_name" translatable="false">今日汇率</string>
     <string name="app_name_alt" translatable="false" tools:keep="@string/app_name_alt">货币名称</string>
 
     <string name="desc_toggle_currencies">切换货币</string>
