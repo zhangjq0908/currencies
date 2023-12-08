@@ -8,10 +8,10 @@ plugins {
 }
 
 // only check for stable versions
-tasks.withType<DependencyUpdatesTask> {
-    rejectVersionIf {
-        isNonStable(candidate.version) && !isNonStable(currentVersion)
-    }
+//tasks.withType<DependencyUpdatesTask> {
+  //  rejectVersionIf {
+    //    isNonStable(candidate.version) && !isNonStable(currentVersion)
+   // }
 }
 
 /**
